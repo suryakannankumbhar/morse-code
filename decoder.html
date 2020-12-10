@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Morse to English</title>
+    <link href="/styles.css" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="nav-bar">
+        <h1>Message Morse</h1>
+        <div class="menubar">
+            <h2><a class="capsules" href="/index.html">Encode</a></h2>
+            <h2><a class="capsules active" href="/decoder.html">Decode</a></h2>
+        </div>
+    </div>
+
+    <div class="translator">
+        <p>Enter Your Message Here:</p>
+        <textarea id="text-input" placeholder="Enter the message you want to decode..."></textarea>
+        <button id="button-translate" >Decode</button>
+        <p>Your Output Will Come Here:</p>
+        <div id="output"></div>
+    </div>
+    <div class=footer-bar>
+        <p class="about">About</p>
+        <p>The word privacy has no meaning today. You never know  when a total stranger reads what you and your friends talk. Encode them with this Morse Code App.</p>
+    </div>
+    <script src="/decoder.js"></script>
+</body>
+</html>
